@@ -1,5 +1,12 @@
 package cn.gzsxt.ssm.controller;
 
-public class StuController {
+import static org.junit.Assert.*;
 
+import org.junit.Test;
+
+public class StuController {
+    @Test
+	public void testName() throws Exception {
+		System.out.println("--------------");
+	}
 }
