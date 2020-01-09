@@ -31,6 +31,8 @@ public class UserController {
 	@RequestMapping("/deleteUser")
 	public String deleteUser(Model model,Integer id) {
         userService.deleteByPrimaryKey(id);
+        System.out.println("É¾³ýÓÃ»§");
+        
         
 		return "redirect:/userController/list.do";	
 	}
